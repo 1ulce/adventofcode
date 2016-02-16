@@ -1018,5 +1018,10 @@ def calc
 	end
 	puts answers.inject(:+)
 end
+def calc_2
+	INPUT.each_line do |line|
+		chars = line.split("x")
+		chars
+end
 
 calc
